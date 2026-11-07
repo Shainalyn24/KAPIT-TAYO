@@ -6,16 +6,15 @@
 <title>Kapit Tayo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <div class="app">
   <aside class="side">
     <div class="brand">Kapit Tayo<span>Harassment awareness</span></div>
     <nav class="nav" id="nav" aria-label="Modules"></nav>
-    <div class="prog"><span id="prog-t">0 of 6 modules opened</span><div class="bar"><i id="prog-b"></i></div></div>
+    <div class="prog"><span id="prog-t">0 of 5 modules opened</span><div class="bar"><i id="prog-b"></i></div></div>
   </aside>
 
   <main class="main">
@@ -25,15 +24,15 @@
       <div class="hero">
         <span class="eyebrow">Gender-based harassment in the Philippines</span>
         <h1>Harassment is never okay.</h1>
-        <p>Catcalling, groping and nasty messages are harassment. They are also against the law. Learn the facts in six short modules.</p>
-        <button class="btn" type="button" data-go="places">Start learning</button>
+        <p>Catcalling, groping and nasty messages are harassment. They are also against the law. Learn the facts in five short modules.</p>
+        <button class="btn gold" type="button" data-go="places">Start learning</button>
       </div>
       <div class="grid3">
-        <div class="card big-card"><span class="big">88%</span><p>of young women (ages 18 to 24) in a Quezon City survey were harassed at least once.<sup><a href="#r6">6</a><a href="#r7">7</a></sup></p></div>
-        <div class="card big-card"><span class="big">3 in 5</span><p>women in the same survey were harassed at least once in their lives.<sup><a href="#r6">6</a><a href="#r7">7</a></sup></p></div>
-        <div class="card big-card"><span class="big">1 in 2</span><p>harassed women did nothing about it.<sup><a href="#r6">6</a><a href="#r7">7</a></sup></p></div>
+        <div class="card fig"><span class="eyebrow">2025</span><span class="big">612</span><p>reports of Safe Spaces Act violations reached the Philippine Commission on Women. In 2021 there were 155.<sup><a href="#r17">17</a></sup></p></div>
+        <div class="card fig"><span class="eyebrow">2021 poll, published 2023</span><span class="big">22%</span><p>of women employees said they had experienced violence or harassment at work.<sup><a href="#r20">20</a></sup></p></div>
+        <div class="card fig"><span class="eyebrow">2016 survey</span><span class="big">88%</span><p>of young women (ages 18 to 24) surveyed in two Quezon City barangays had been harassed at least once.<sup><a href="#r6">6</a><a href="#r8">8</a></sup></p></div>
       </div>
-      <p class="note">The survey was done in Quezon City in 2016. It does not cover the whole country.</p>
+      <p class="note">Figures last checked in November 2026. Each number shows its year, because the data comes from different studies.</p>
       <div class="todo" id="todo"></div>
     </section>
 
@@ -69,22 +68,56 @@
 
     <!-- NUMBERS -->
     <section class="mod" id="m-numbers" hidden>
-      <div class="mod-head"><span class="eyebrow">Module 2</span><h2>The numbers</h2><p>Data from a 2016 survey of women in Quezon City, and from police records on online abuse.</p></div>
+      <div class="mod-head"><span class="eyebrow">Module 2</span><h2>The numbers</h2><p>Newest figures first. Each card shows its year and its source.</p></div>
+
       <div class="card">
-        <h3 style="margin-bottom:16px">Street harassment survey</h3>
-        <div class="rows" id="rows-street"></div>
-        <p class="note" style="margin-top:16px">Source: Social Weather Stations for UN Women and Quezon City.<sup><a href="#r6">6</a><a href="#r8">8</a></sup> It shows a pattern, not a count for the whole country.</p>
+        <div class="card-top"><h3>Reports under the Safe Spaces Act</h3><span class="year">2021 to 2025</span></div>
+        <p class="note">Cases reported to the Philippine Commission on Women (PCW).<sup><a href="#r17">17</a></sup></p>
+        <div class="rows" id="rows-pcw"></div>
+        <p class="note">The PCW says the rise may mean more victims are speaking up, not that harassment itself grew. The PCW also received court orders linked to the Act: 2 in 2022 and 11 in 2025.<sup><a href="#r17">17</a></sup></p>
       </div>
+
+      <div class="grid3">
+        <div class="card">
+          <span class="eyebrow">Sextortion cases</span>
+          <div class="compare"><span class="big">110</span><em>&rarr;</em><span class="big">121</span></div>
+          <p class="note"><span class="tag-up">Up 10%</span> from 2022 to 2023.<sup><a href="#r11">11</a></sup> Sextortion means threatening to share private photos to force someone.</p>
+        </div>
+        <div class="card">
+          <span class="eyebrow">Voyeurism cases</span>
+          <div class="compare"><span class="big">294</span><em>&rarr;</em><span class="big">347</span></div>
+          <p class="note"><span class="tag-up">Up 18%</span> from 2023 to 2024.<sup><a href="#r18">18</a></sup> Voyeurism means secretly recording or spying on someone.</p>
+        </div>
+        <div class="card">
+          <span class="eyebrow">Voyeurism, Jan 1 to May 1</span>
+          <div class="compare"><span class="big">141</span><em>&rarr;</em><span class="big">86</span></div>
+          <p class="note"><span class="tag-down">Down 39%</span> from 2024 to 2025.<sup><a href="#r19">19</a></sup> The police credit awareness campaigns.</p>
+        </div>
+      </div>
+      <p class="note">These are cases received by the Philippine National Police (PNP) Anti-Cybercrime Group. Many cases are never reported, so the real numbers are higher.</p>
+
       <div class="grid2">
-        <div class="card"><span class="eyebrow">Sextortion cases</span><div class="compare" style="margin-top:8px"><span>110</span><em>&rarr;</em><span>121</span></div><p class="note" style="margin-top:6px"><span class="tag-up">Up 10%</span> from 2022 to 2023.<sup><a href="#r11">11</a></sup> Sextortion means threatening to share private photos to force someone.</p></div>
-        <div class="card"><span class="eyebrow">Voyeurism cases</span><div class="compare" style="margin-top:8px"><span>294</span><em>&rarr;</em><span>347</span></div><p class="note" style="margin-top:6px"><span class="tag-up">Up 18%</span> from 2023 to 2024.<sup><a href="#r11">11</a></sup> Voyeurism means secretly recording or spying on someone.</p></div>
+        <div class="card">
+          <h3>Online complaints from women and children</h3>
+          <p class="note">Share of complaints to the PNP helpline.<sup><a href="#r10">10</a></sup></p>
+          <div class="rows" id="rows-online"></div>
+          <p class="note">Debt collection harassment ranked third, but the source gives no percentage for it.<sup><a href="#r10">10</a></sup></p>
+        </div>
+        <div class="card">
+          <h3>At work</h3>
+          <p class="note">Employees who said they had experienced workplace violence or harassment. World Risk Poll 2021, 1,000 Filipinos.<sup><a href="#r20">20</a></sup></p>
+          <div class="rows" id="rows-work"></div>
+          <p class="note">This counts all kinds of violence and harassment, not only sexual harassment.</p>
+        </div>
       </div>
+
       <div class="card">
-        <h3 style="margin-bottom:6px">Most common online complaints</h3>
-        <p class="note" style="margin-bottom:16px">Share of complaints from women and children to the PNP helpline.<sup><a href="#r10">10</a></sup></p>
-        <div class="rows" id="rows-online"></div>
-        <p class="note" style="margin-top:16px">Many cases are never reported, so the real numbers are higher. Worldwide, nearly 60% of women have faced online violence, says the UN Population Fund.<sup><a href="#r12">12</a></sup> Percent changes are calculated from the source figures.</p>
+        <div class="card-top"><h3>Street harassment survey</h3><span class="older">Older data, 2016</span></div>
+        <p class="note">Social Weather Stations (SWS) survey for UN Women and Quezon City, February 2016. It covered two Quezon City barangays, Payatas and Bagong Silangan, so it does not show national rates. It is still the most detailed Philippine street survey we found.<sup><a href="#r6">6</a><a href="#r8">8</a></sup></p>
+        <div class="rows" id="rows-street"></div>
       </div>
+
+      <p class="note">Worldwide, nearly 60% of women have faced online violence, says the UN Population Fund.<sup><a href="#r12">12</a></sup> Percent changes on this page are calculated from the source figures.</p>
       <button class="btn" type="button" data-go="law">Next: The law</button>
     </section>
 
@@ -92,9 +125,9 @@
     <section class="mod" id="m-law" hidden>
       <div class="mod-head"><span class="eyebrow">Module 3</span><h2>The law, simply</h2><p>The Safe Spaces Act was signed in April 2019.<sup><a href="#r1">1</a></sup> Motive does not matter. Saying "it was just a joke" is not an excuse.<sup><a href="#r2">2</a></sup></p></div>
       <div class="ladder">
-        <div><span class="eyebrow">Public spaces</span><span class="big">PHP 1,000<small>to PHP 30,000 or 11 to 30 days in jail</small></span><p>For a first offense, depending on the act.<sup><a href="#r1">1</a></sup></p></div>
-        <div><span class="eyebrow">Online</span><span class="big">PHP 100,000<small>to PHP 500,000, jail, or both</small></span><p>Set by the court.<sup><a href="#r5">5</a></sup></p></div>
-        <div><span class="eyebrow">Whole Act</span><span class="big">6 days<small>to 6 months in prison</small></span><p>Fines run from PHP 1,000 to PHP 500,000.<sup><a href="#r2">2</a></sup></p></div>
+        <div><span class="eyebrow">Public spaces</span><span class="big">PHP 1,000</span><span class="sub">up to PHP 30,000 or 11 to 30 days in jail, for a first offense</span><p>The penalty depends on the act.<sup><a href="#r1">1</a></sup></p></div>
+        <div><span class="eyebrow">Online</span><span class="big">PHP 100,000</span><span class="sub">up to PHP 500,000, jail time, or both</span><p>The court decides.<sup><a href="#r5">5</a></sup></p></div>
+        <div><span class="eyebrow">Public vehicles</span><span class="big">License</span><span class="sub">offenders can lose their license</span><p>Applies to harassment in public utility vehicles.<sup><a href="#r4">4</a></sup></p></div>
       </div>
       <div class="card who">
         <h3>Who has to act</h3>
@@ -117,14 +150,14 @@
 
     <!-- HELP -->
     <section class="mod" id="m-help" hidden>
-      <div class="mod-head"><span class="eyebrow">Module 4</span><h2>What to do</h2><p>Half of the women who were harassed did nothing, and some were too afraid.<sup><a href="#r6">6</a></sup> Go through three steps.</p></div>
+      <div class="mod-head"><span class="eyebrow">Module 4</span><h2>What to do</h2><p>In the 2016 survey, half of the women who were harassed did nothing, and some were too afraid.<sup><a href="#r6">6</a></sup> Go through three steps.</p></div>
       <div class="card stepper" id="stepper" aria-live="polite"></div>
       <button class="btn" type="button" data-go="quiz">Next: Quiz</button>
     </section>
 
     <!-- QUIZ -->
     <section class="mod" id="m-quiz" hidden>
-      <div class="mod-head"><span class="eyebrow">Module 5</span><h2>Check what you learned</h2><p>Five questions. Pick one answer each.</p></div>
+      <div class="mod-head"><span class="eyebrow">Module 5</span><h2>Check what you learned</h2><p>Six questions. Pick one answer each.</p></div>
       <div class="card q" id="quiz" aria-live="polite"></div>
       <div class="card">
         <h3 style="margin-bottom:12px">Talk about it</h3>
@@ -151,20 +184,22 @@
           <li id="r8">Stop Street Harassment. <em>New street harassment studies in the Philippines</em>, summarizing the SWS February 2016 survey. <a href="https://stopstreetharassment.org/?p=20716" target="_blank" rel="noopener">stopstreetharassment.org</a></li>
           <li id="r9">BusinessWorld. <em>SWS baseline study on street harassment</em>, by Nickky Faustine P. de Guzman. <a href="https://www.bworldonline.com/?p=11534" target="_blank" rel="noopener">bworldonline.com</a></li>
           <li id="r10">Manila Bulletin. <em>What are the 5 common online crimes vs women and children? PNP-ACG reveals</em>, March 6, 2024. <a href="https://mb.com.ph/2024/3/6/what-are-the-5-common-online-crime-vs-women-and-children-pnp-acg-reveals" target="_blank" rel="noopener">mb.com.ph</a></li>
-          <li id="r11">Foundation for Media Alternatives. <em>Online Gender-Based Violence in the Philippines: 2025 Mid-year Report</em> (citing PNP-ACG figures). <a href="https://fma.ph/?p=13188" target="_blank" rel="noopener">fma.ph</a></li>
-          <li id="r12">Foundation for Media Alternatives. <em>2024 Online Gender-Based Violence Report</em> (citing UNFPA and the Economist Intelligence Unit). <a href="https://fma.ph/2024-online-gender-based-violence-report/" target="_blank" rel="noopener">fma.ph</a></li>
+          <li id="r11">Foundation for Media Alternatives. <em>Online Gender-Based Violence in the Philippines: 2025 Mid-year Report</em> (citing PNP-ACG sextortion figures for 2022 and 2023). <a href="https://fma.ph/online-gender-based-violence-in-the-philippines-2025-mid-year-report/" target="_blank" rel="noopener">fma.ph</a></li>
+          <li id="r12">Foundation for Media Alternatives. <em>2024 Online Gender-Based Violence Report</em> (citing the UN Population Fund). <a href="https://fma.ph/2024-online-gender-based-violence-report/" target="_blank" rel="noopener">fma.ph</a></li>
           <li id="r13">Commission on Human Rights. <em>Statement commending the activation of the PNP virtual helpline for women and children</em>. <a href="https://chr.gov.ph/tl/2024/statements/press-statement/statement-of-the-commission-on-human-rights-commending-the-activation-of-the-pnp-virtual-helpline-for-women-and-children" target="_blank" rel="noopener">chr.gov.ph</a></li>
           <li id="r14">Batas Natin. <em>RA No. 11313, Safe Spaces Act</em> (full text). <a href="https://batasnatin.com/laws/ra-11313" target="_blank" rel="noopener">batasnatin.com</a></li>
           <li id="r15">Interaksyon. <em>Philippines' streets should be safer for women with new law signed</em>, May 29, 2019. <a href="https://interaksyon.philstar.com/trends-spotlights/2019/05/29/149719/safe-streets-public-spaces-act/amp/" target="_blank" rel="noopener">interaksyon.philstar.com</a></li>
           <li id="r16">Foundation for Media Alternatives. <em>Mapping online gender-based violence in the Philippines</em>, 2018 (names RA 9262 among laws applied by the PNP-ACG). <a href="https://fma.ph/recognising-and-responding-online-gender-based-violence-in-the-philippines/" target="_blank" rel="noopener">fma.ph</a></li>
+          <li id="r17">GMA News Online. <em>Why do sexist remarks and harassment persist despite the Safe Spaces Act?</em>, March 31, 2026 (Philippine Commission on Women data, 2021 to 2025). <a href="https://www.gmanetwork.com/news/publicaffairs/content/982107/why-do-sexist-remarks-and-harassment-persist-despite-the-safe-spaces-act/story" target="_blank" rel="noopener">gmanetwork.com</a></li>
+          <li id="r18">Philippine Daily Inquirer. <em>PNP observes increase in voyeurism, online libel cases in 2024</em>, January 2025 (PNP-ACG data). <a href="https://newsinfo.inquirer.net/2025223/pnp-observes-increase-in-voyeurism-online-libel-cases-in-2024" target="_blank" rel="noopener">newsinfo.inquirer.net</a></li>
+          <li id="r19">Daily Tribune. <em>Voyeurism cases down 39% in Q1 2025: PNP</em>, May 15, 2025 (PNP-ACG data, January 1 to May 1). <a href="https://tribune.net.ph/2025/05/15/voyeurism-cases-down-39-in-q1-2025-pnp" target="_blank" rel="noopener">tribune.net.ph</a></li>
+          <li id="r20">The Philippine Star. <em>Around a fifth of Filipino employees have experienced workplace harassment: poll</em>, January 31, 2023 (Lloyd's Register Foundation and Gallup, World Risk Poll 2021). <a href="https://www.philstar.com/headlines/2023/01/31/2241812/around-fifth-filipino-employees-have-experienced-workplace-harassment-poll" target="_blank" rel="noopener">philstar.com</a></li>
         </ol>
       </div>
-      <p class="foot">Midterm project: Gender-responsive Digital Platform. Statistics were last checked in October 2026.</p>
+      <p class="foot">Midterm project: Gender-responsive Digital Platform. Figures last checked in November 2026.</p>
     </section>
   </main>
 </div>
-
 <script src="script.js"></script>
-
 </body>
 </html>
